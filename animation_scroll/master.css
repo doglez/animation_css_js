@@ -1,0 +1,96 @@
+/*Animations Scroll*/
+.animateAbove{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showAbove{
+  animation: showAbove 1s;
+}
+@keyframes showAbove {
+  0%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.animateBelow{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showBelow{
+  animation: showBelow 1s;
+}
+@keyframes showBelow {
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.animateRight{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showRight{
+  animation: showRight 1s;
+}
+@keyframes showRight {
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+.animateLeft{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showLeft{
+  animation: showLeft 1s;
+}
+@keyframes showLeft {
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+/*---------------------------*/
+
+
+
+
+.texto{
+  width: 600px;
+}
+.padre{
+  display: flex;
+}
+.caja1{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.caja2{
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.caja3{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.caja4{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
